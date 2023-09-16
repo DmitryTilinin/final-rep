@@ -1,0 +1,72 @@
+@import"./header.css";
+@import"./main.css";
+@import"./footer.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif !important;
+}
+body{
+    display: flex;
+    overflow-x: hidden;
+    background:black;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fon{
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid orange;
+    background: rgb(31, 31, 31);
+    width: 950px;
+    height: px;
+    margin-right: auto;
+}
+.fon2{
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid orange;
+    background: rgb(31, 31, 31);
+    width: 250px;
+    height: 350px;
+    margin-left:375px;
+    position: sticky;
+    top: 0;
+
+}
+.button{
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+    background: black;
+    border-radius: 5px 5px 5px 5px ;
+    text-align: center;
+}
+.button:hover{
+    transition: 1s;
+    background: white;
+}
+.fon2_menu{
+    background: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 30px;
+}
+.fon2_menu_button{
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background: black;
+    border-radius: 5px 5px 5px 5px ;
+    text-align: center;
+}
+.fon2_menu_button:hover{
+    transition: 1s;
+    background: white;
+}

@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    width: 950px;
+    height: 500px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.section{
+    width: 850px;
+    height: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: url(../image/object.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 185px;
+    animation-name: button;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.steam{
+    margin-left: 375px;
+    margin-top: 35px;
+}
+.button_steam{
+    width: 150px;
+    height: 75px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    transform: scale(1.25);
+    transition: 1s;
+
+}
+.button_steam:hover{
+    transform: scale(1.75);
+    transition: 1s;
+
+}
+@keyframes button {
+    0%{
+        color: white;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+} 

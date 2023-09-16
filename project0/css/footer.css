@@ -1,0 +1,30 @@
+footer{
+    width: 950px;
+    height: 600px;
+    border-radius: 0px 0px  10px  10px;
+}
+.scroll{
+    display: flex;
+    background: rgb(24, 24, 24);
+    width: 850px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+
+}
+.photo{
+    width: 250px;
+    height: 450px;
+    background: yellow;
+}
+#hover{
+    transform: scale(0.75);
+    transition: 500ms;
+}
+#hover:hover{
+    transform: scale(1.0);
+    transition: 500ms;
+}
